@@ -5,7 +5,7 @@
     "url": "git://github.com/palmerabollo/express-health"
   },
   "author": "Guido García <guido.garcia.bernardo@gmail.com> (http://guidogarcia.net)",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "main": "index.js",
   "engines": {
     "node": ">= 0.8.x"

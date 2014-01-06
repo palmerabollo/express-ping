@@ -53,6 +53,10 @@ Once you launch your express application, it will add a new **/ping** endpoint t
   "application": {
     "name": "express-health",
     "version": "0.2.0"
+  },
+  "os": {
+	"hostname": "tizona.local",
+	"uptime": 307199
   }
 }
 ```
@@ -61,7 +65,7 @@ TODO
 ----
 
 * Include CPU usage.
-* Include [OS information](http://nodejs.org/api/os.html).
+* Include more [OS information](http://nodejs.org/api/os.html).
 * Debate around the JSON organization (contributions are welcome).
 
 License
