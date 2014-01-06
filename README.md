@@ -1,7 +1,9 @@
 express-ping
 ============
 
-Let your express applications **expose a simple API to inform about its internal status** and health to both operators and to other applications. This module was created as an express middleware to simplify its usage.
+Let your express applications **expose a simple API to inform about its internal status** and health to both operators and to other applications.
+
+This module was created as an express middleware to simplify its usage. Add a **single line** to your express application and you are done.
 
 Usage
 -----
