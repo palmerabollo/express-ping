@@ -60,7 +60,9 @@ Once you launch your express application, it will add a new **/ping** endpoint t
 TODO
 ----
 
-* Include CPU usage
+* Include CPU usage.
+* Include [OS information](http://nodejs.org/api/os.html).
+* Debate around the JSON organization (contributions are welcome).
 
 License
 -------
