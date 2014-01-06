@@ -1,5 +1,6 @@
 {
   "name": "express-ping",
+  "description": "Express middleware. Exposes a common API to inform about its internal status and health.",
   "repository": {
     "type": "git",
     "url": "git://github.com/palmerabollo/express-ping"
