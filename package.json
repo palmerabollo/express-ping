@@ -1,8 +1,8 @@
 {
-  "name": "express-middleware-health",
+  "name": "express-health",
   "repository": {
     "type": "git",
-    "url": "git://github.com/palmerabollo/express-middleware-health"
+    "url": "git://github.com/palmerabollo/express-health"
   },
   "author": "Guido García <guido.garcia.bernardo@gmail.com> (http://guidogarcia.net)",
   "version": "0.2.0",
@@ -12,9 +12,12 @@
   },
   "keywords": [
     "express",
-    "middleware"
+    "middleware",
+    "health",
+    "api"
   ],
   "dependencies": {
-    "express": "*"
-  }
+    "express": "~3.x"
+  },
+  "license": "MIT"
 }
