@@ -1,16 +1,16 @@
-express-health
-==============
+express-ping
+============
 
-Let your express applications **expose a simple API to inform about its internal status** to both operators and to other applications. This module was created as an express middleware to simplify its usage.
+Let your express applications **expose a simple API to inform about its internal status** and health to both operators and to other applications. This module was created as an express middleware to simplify its usage.
 
 Usage
 -----
 
-* Add "express-health" to your package.json dependencies (```npm install express-health --save```)
+* Add "express-ping" to your package.json dependencies (```npm install express-ping --save```)
 * Include the middleware in your express application:
 
 ```javascript
-var health = require('express-health');
+var health = require('express-ping');
 var express = require('express');
 
 var app = express();
@@ -28,6 +28,7 @@ Once you launch your express application, it will add a new **/ping** endpoint t
 {
   "timestamp": 1389004812756,
   "uptime": 2187,
+  "pid": 5761,
   "memory": {
     "rss": 21147648,
     "heapTotal": 11344896,
@@ -48,10 +49,10 @@ Once you launch your express application, it will add a new **/ping** endpoint t
   "platform": "darwin",
   "argv": [
     "node",
-    "/Users/guido/express-health/examples/server.js"
+    "/Users/guido/express-ping/examples/server.js"
   ],
   "application": {
-    "name": "express-health",
+    "name": "express-ping",
     "version": "0.2.0"
   },
   "os": {

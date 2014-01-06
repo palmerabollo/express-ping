@@ -1,8 +1,8 @@
 {
-  "name": "express-health",
+  "name": "express-ping",
   "repository": {
     "type": "git",
-    "url": "git://github.com/palmerabollo/express-health"
+    "url": "git://github.com/palmerabollo/express-ping"
   },
   "author": "Guido García <guido.garcia.bernardo@gmail.com> (http://guidogarcia.net)",
   "version": "0.3.0",
@@ -14,10 +14,10 @@
     "express",
     "middleware",
     "health",
+    "ping",
     "api"
   ],
   "dependencies": {
     "express": "~3.x"
-  },
-  "license": "MIT"
+  }
 }
