@@ -24,7 +24,6 @@ app.use(app.router);
 app.listen(3000);
 ```
 
-
 Once you launch your express application, it will add a new **/ping** endpoint to check the app status. If you **GET http://localhost:3000/ping** you will receive the following information:
 
 ```json
@@ -64,9 +63,11 @@ Once you launch your express application, it will add a new **/ping** endpoint t
   }
 }
 ```
+
 Configuration
 -------------
-By default, a `/ping` endpoint will be added to your routes, but you can pass the _ping_ endpoint to the middeware simply doing
+
+You don't need to configure anything. By default, a `/ping` endpoint will be added to your routes, but you can pass the _ping_ endpoint to the middeware simply doing:
 
 ```js
 app.use(health.ping('/custompath'));
@@ -78,7 +79,7 @@ TODO
 
 * Include CPU usage.
 * Include more [OS information](http://nodejs.org/api/os.html).
-* Debate around the JSON organization (contributions are welcome).
+* [Debate around the JSON organization](https://github.com/palmerabollo/express-ping/wiki/Response-Format-Debate) (contributions are welcome).
 
 License
 -------
