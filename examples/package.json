@@ -1,0 +1,12 @@
+{
+  "name": "express-ping-example",
+  "description": "Express Health example",
+  "version": "1.2.3",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.8.x"
+  },
+  "dependencies": {
+    "express": "~3.x"
+  }
+}
