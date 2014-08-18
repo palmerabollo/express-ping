@@ -202,6 +202,18 @@ You don't need to configure anything. By default, a `/ping` endpoint will be add
 app.use(health.ping('/custompath'));
 ```
 
+To provide authorized access, use "shared secret" strategy through `access_token` option,
+
+``js
+app.use(health.ping({accessToken: '297beb01dd21c5a2aad009da6abb91d4bc0fdc6d'}))
+```
+
+Endpoint will be available at,
+
+```plain
+/ping?access_token=297beb01dd21c5a2aad009da6abb91d4bc0fdc6d
+```
+
 Notes
 -----
 
