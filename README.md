@@ -204,7 +204,7 @@ app.use(health.ping('/custompath'));
 
 To provide authorized access, use "shared secret" strategy through `access_token` option,
 
-``js
+```js
 app.use(health.ping({accessToken: '297beb01dd21c5a2aad009da6abb91d4bc0fdc6d'}))
 ```
 
