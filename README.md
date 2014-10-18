@@ -202,6 +202,13 @@ You don't need to configure anything. By default, a `/ping` endpoint will be add
 app.use(health.ping('/custompath'));
 ```
 
+To provide **authorized access**, use a middleware (i.e. [connect-basic-auth](https://github.com/c4milo/connect-basic-auth)) before express-ping. Example:
+
+```
+app.get('/ping', basicAuth('username', 'password'));
+app.use(health.ping('/ping'));
+```
+
 Notes
 -----
 
