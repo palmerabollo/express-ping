@@ -213,7 +213,7 @@ Notes
 -----
 
 * [Debate around the JSON organization](https://github.com/palmerabollo/express-ping/wiki/Response-Format-Debate) (contributions are welcome).
-* Port for koa [koa-ping](https://github.com/AlexeyKhristov/koa-ping)
+* Port for koa.js [koa-ping](https://github.com/AlexeyKhristov/koa-ping)
 
 License
 -------
