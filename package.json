@@ -5,8 +5,8 @@
     "type": "git",
     "url": "git://github.com/palmerabollo/express-ping"
   },
-  "author": "Guido García <guido.garcia.bernardo@gmail.com> (http://guidogarcia.net)",
-  "version": "1.2.0",
+  "author": "Guido García (http://guidogarcia.net)",
+  "version": "1.3.0",
   "main": "index.js",
   "engines": {
     "node": ">= 0.8.x"
