@@ -20,6 +20,13 @@
   ],
   "dependencies": {
     "express": "~3.x || ~4.x",
-    "node-df": "^0.1.1"
+    "node-df": "^0.1.1",
+    "pkg-dir": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^20.0.3",
+    "babel-preset-env": "^1.5.2",
+    "jest": "^20.0.4",
+    "supertest": "^3.0.0"
   }
 }
