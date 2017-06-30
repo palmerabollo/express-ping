@@ -20,7 +20,8 @@
   ],
   "dependencies": {
     "express": "~3.x || ~4.x",
-    "node-df": "^0.1.1"
+    "node-df": "^0.1.1",
+    "pkg-dir": "^2.0.0"
   },
   "devDependencies": {
     "babel-jest": "^20.0.3",
