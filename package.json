@@ -20,6 +20,6 @@
   ],
   "dependencies": {
     "express": "~3.x || ~4.x",
-    "node-df": "^0.1.1"
+    "node-df-win-posix": "^0.2.0"
   }
 }
